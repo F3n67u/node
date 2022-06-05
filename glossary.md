@@ -1,5 +1,9 @@
 You may also need to check <https://chromium.googlesource.com/chromiumos/docs/+/HEAD/glossary.md>.
 
+* CIGTM: "The Canary in the Goldmine". cigtm is a simple tool for pulling down
+an arbitrary module from npm and testing it using a specific version of the node
+runtime. The Node.js project uses citgm to smoke test our releases and
+controversial changes. See more details at [cigtm](https://github.com/nodejs/citgm).
 * LGTM: "Looks good to me", commonly used to approve a code review.
 * PTAL: Please take a look.
 * RSLGTM: "Rubber-stamp looks good to me". The reviewer approving without doing
