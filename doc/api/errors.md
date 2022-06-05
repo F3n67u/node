@@ -1744,7 +1744,7 @@ time.
 > Stability: 1 - Experimental
 
 The `--input-type` flag was used to attempt to execute a file. This flag can
-only be used with input via `--eval`, `--print` or `STDIN`.
+only be used with input via `--eval`, `--print`, or `STDIN`.
 
 <a id="ERR_INSPECTOR_ALREADY_ACTIVATED"></a>
 
@@ -2005,7 +2005,7 @@ performing another operation.
 
 ### `ERR_INVALID_SYNC_FORK_INPUT`
 
-A `Buffer`, `TypedArray`, `DataView` or `string` was provided as stdio input to
+A `Buffer`, `TypedArray`, `DataView`, or `string` was provided as stdio input to
 an asynchronous fork. See the documentation for the [`child_process`][] module
 for more information.
 
@@ -2360,7 +2360,7 @@ cannot be imported through the package resolution, unless using an absolute URL.
 ### `ERR_PARSE_ARGS_INVALID_OPTION_VALUE`
 
 <!-- YAML
-added: REPLACEME
+added: v18.3.0
 -->
 
 When `strict` set to `true`, thrown by [`util.parseArgs()`][] if a {boolean}
@@ -2372,7 +2372,7 @@ value is provided for an option of type {boolean}.
 ### `ERR_PARSE_ARGS_UNEXPECTED_POSITIONAL`
 
 <!-- YAML
-added: REPLACEME
+added: v18.3.0
 -->
 
 Thrown by [`util.parseArgs()`][], when a postional argument is provided and
@@ -2383,7 +2383,7 @@ Thrown by [`util.parseArgs()`][], when a postional argument is provided and
 ### `ERR_PARSE_ARGS_UNKNOWN_OPTION`
 
 <!-- YAML
-added: REPLACEME
+added: v18.3.0
 -->
 
 When `strict` set to `true`, thrown by [`util.parseArgs()`][] if an argument
